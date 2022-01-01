@@ -13,6 +13,11 @@
 		A51F5825277C86E80043917C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51F5823277C86E80043917C /* Main.storyboard */; };
 		A51F5827277C86EA0043917C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F5826277C86EA0043917C /* Assets.xcassets */; };
 		A51F582A277C86EA0043917C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51F5828277C86EA0043917C /* LaunchScreen.storyboard */; };
+		A51F5832277C8B390043917C /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F5831277C8B390043917C /* DiaryCell.swift */; };
+		A51F5834277C8B660043917C /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F5833277C8B660043917C /* StarViewController.swift */; };
+		A51F5836277C8FBA0043917C /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F5835277C8FBA0043917C /* StarCell.swift */; };
+		A53422AD277DA76A00C215FC /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53422AC277DA76A00C215FC /* DiaryDetailViewController.swift */; };
+		A53422AF277DB70200C215FC /* WriteDeiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53422AE277DB70200C215FC /* WriteDeiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A51F5826277C86EA0043917C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51F5829277C86EA0043917C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A51F582B277C86EA0043917C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51F5831277C8B390043917C /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
+		A51F5833277C8B660043917C /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		A51F5835277C8FBA0043917C /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		A53422AC277DA76A00C215FC /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		A53422AE277DB70200C215FC /* WriteDeiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDeiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				A51F5826277C86EA0043917C /* Assets.xcassets */,
 				A51F5828277C86EA0043917C /* LaunchScreen.storyboard */,
 				A51F582B277C86EA0043917C /* Info.plist */,
+				A51F5831277C8B390043917C /* DiaryCell.swift */,
+				A51F5833277C8B660043917C /* StarViewController.swift */,
+				A51F5835277C8FBA0043917C /* StarCell.swift */,
+				A53422AC277DA76A00C215FC /* DiaryDetailViewController.swift */,
+				A53422AE277DB70200C215FC /* WriteDeiaryViewController.swift */,
 			);
 			path = DiaryProject;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51F5822277C86E80043917C /* ViewController.swift in Sources */,
+				A51F5836277C8FBA0043917C /* StarCell.swift in Sources */,
+				A53422AF277DB70200C215FC /* WriteDeiaryViewController.swift in Sources */,
 				A51F581E277C86E80043917C /* AppDelegate.swift in Sources */,
+				A53422AD277DA76A00C215FC /* DiaryDetailViewController.swift in Sources */,
 				A51F5820277C86E80043917C /* SceneDelegate.swift in Sources */,
+				A51F5832277C8B390043917C /* DiaryCell.swift in Sources */,
+				A51F5834277C8B660043917C /* StarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
