@@ -248,7 +248,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StarCell" id="Nn4-OI-MIA">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StarCell" id="Nn4-OI-MIA" customClass="StarCell" customModule="DiaryProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="WC4-2h-F8M">
@@ -280,6 +280,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="80"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="ZCM-eh-2ZA" id="k2G-1R-RiX"/>
+                                            <outlet property="titleLabel" destination="nol-GR-01Y" id="XmN-HT-G1Z"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -294,6 +298,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bDb-9s-jVI"/>
+                    <connections>
+                        <outlet property="collectionView" destination="5Ls-Ah-6JX" id="C9K-ZL-eld"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oda-Zw-BbP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -363,12 +370,18 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZI-Yc-Arb">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="수정"/>
+                                        <connections>
+                                            <action selector="tapEditButton:" destination="P40-fZ-NAN" eventType="touchUpInside" id="Hck-Bm-mlc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hf1-w2-3CK">
                                         <rect key="frame" x="80" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="삭제">
                                             <color key="titleColor" systemColor="systemRedColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="tapDeleteButton:" destination="P40-fZ-NAN" eventType="touchUpInside" id="Gsc-Dn-9a7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -392,6 +405,11 @@
                             <constraint firstItem="oDL-Ej-Tr2" firstAttribute="trailing" secondItem="NgP-d7-cyX" secondAttribute="trailing" constant="24" id="wrK-af-hD4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentsTextView" destination="A6V-lw-9yy" id="j1z-dR-jdF"/>
+                        <outlet property="dateLabel" destination="6rt-aP-SNK" id="TAh-HS-nRD"/>
+                        <outlet property="titleLabel" destination="Ysz-Lk-Evx" id="yKX-LE-2rY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Srg-HH-lVI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
