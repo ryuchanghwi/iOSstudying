@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E51DBA972769235C30289C7 /* Pods_CreditCardListPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC86A07C48680E41532B9DD7 /* Pods_CreditCardListPractice.framework */; };
+		A5FFC3FE278D6A79006ECC71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FFC3FD278D6A79006ECC71 /* AppDelegate.swift */; };
+		A5FFC400278D6A79006ECC71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FFC3FF278D6A79006ECC71 /* SceneDelegate.swift */; };
+		A5FFC405278D6A79006ECC71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC403278D6A79006ECC71 /* Main.storyboard */; };
+		A5FFC407278D6A7A006ECC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC406278D6A7A006ECC71 /* Assets.xcassets */; };
+		A5FFC40A278D6A7A006ECC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC408278D6A7A006ECC71 /* LaunchScreen.storyboard */; };
+		A5FFC412278D6AA1006ECC71 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FFC411278D6AA1006ECC71 /* CardListViewController.swift */; };
+		A5FFC414278D6EF2006ECC71 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FFC413278D6EF2006ECC71 /* CreditCard.swift */; };
+		A5FFC417278D7038006ECC71 /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FFC415278D7038006ECC71 /* CardListCell.swift */; };
+		A5FFC418278D7038006ECC71 /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC416278D7038006ECC71 /* CardListCell.xib */; };
+		A5FFC41A278DA916006ECC71 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FFC419278DA916006ECC71 /* CardDetailViewController.swift */; };
+		A5FFC41C278DAD92006ECC71 /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC41B278DAD92006ECC71 /* money.json */; };
+		A5FFC41E278DB8DC006ECC71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC41D278DB8DC006ECC71 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59F5EB7EF9927B06B2E85058 /* Pods-CreditCardListPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardListPractice.debug.xcconfig"; path = "Target Support Files/Pods-CreditCardListPractice/Pods-CreditCardListPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		9EF6166D568E80BCCFE084F3 /* Pods-CreditCardListPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardListPractice.release.xcconfig"; path = "Target Support Files/Pods-CreditCardListPractice/Pods-CreditCardListPractice.release.xcconfig"; sourceTree = "<group>"; };
+		A5FFC3FA278D6A79006ECC71 /* CreditCardListPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardListPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FFC3FD278D6A79006ECC71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5FFC3FF278D6A79006ECC71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5FFC404278D6A79006ECC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5FFC406278D6A7A006ECC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5FFC409278D6A7A006ECC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5FFC40B278D6A7A006ECC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FFC411278D6AA1006ECC71 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		A5FFC413278D6EF2006ECC71 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		A5FFC415278D7038006ECC71 /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
+		A5FFC416278D7038006ECC71 /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		A5FFC419278DA916006ECC71 /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
+		A5FFC41B278DAD92006ECC71 /* money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
+		A5FFC41D278DB8DC006ECC71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC86A07C48680E41532B9DD7 /* Pods_CreditCardListPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCardListPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FFC3F7278D6A79006ECC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E51DBA972769235C30289C7 /* Pods_CreditCardListPractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5FFC3F1278D6A79006ECC71 = {
+			isa = PBXGroup;
+			children = (
+				A5FFC3FC278D6A79006ECC71 /* CreditCardListPractice */,
+				A5FFC3FB278D6A79006ECC71 /* Products */,
+				EED5EE49892AB4DD80F38E8A /* Pods */,
+				AD81D381D3ABB7C8E3A49C37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FFC3FB278D6A79006ECC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFC3FA278D6A79006ECC71 /* CreditCardListPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FFC3FC278D6A79006ECC71 /* CreditCardListPractice */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFC41B278DAD92006ECC71 /* money.json */,
+				A5FFC3FD278D6A79006ECC71 /* AppDelegate.swift */,
+				A5FFC3FF278D6A79006ECC71 /* SceneDelegate.swift */,
+				A5FFC403278D6A79006ECC71 /* Main.storyboard */,
+				A5FFC406278D6A7A006ECC71 /* Assets.xcassets */,
+				A5FFC408278D6A7A006ECC71 /* LaunchScreen.storyboard */,
+				A5FFC411278D6AA1006ECC71 /* CardListViewController.swift */,
+				A5FFC413278D6EF2006ECC71 /* CreditCard.swift */,
+				A5FFC415278D7038006ECC71 /* CardListCell.swift */,
+				A5FFC416278D7038006ECC71 /* CardListCell.xib */,
+				A5FFC419278DA916006ECC71 /* CardDetailViewController.swift */,
+				A5FFC40B278D6A7A006ECC71 /* Info.plist */,
+				A5FFC41D278DB8DC006ECC71 /* GoogleService-Info.plist */,
+			);
+			path = CreditCardListPractice;
+			sourceTree = "<group>";
+		};
+		AD81D381D3ABB7C8E3A49C37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC86A07C48680E41532B9DD7 /* Pods_CreditCardListPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED5EE49892AB4DD80F38E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59F5EB7EF9927B06B2E85058 /* Pods-CreditCardListPractice.debug.xcconfig */,
+				9EF6166D568E80BCCFE084F3 /* Pods-CreditCardListPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5FFC3F9278D6A79006ECC71 /* CreditCardListPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FFC40E278D6A7A006ECC71 /* Build configuration list for PBXNativeTarget "CreditCardListPractice" */;
+			buildPhases = (
+				DBD2DBD7FF2554618850238D /* [CP] Check Pods Manifest.lock */,
+				A5FFC3F6278D6A79006ECC71 /* Sources */,
+				A5FFC3F7278D6A79006ECC71 /* Frameworks */,
+				A5FFC3F8278D6A79006ECC71 /* Resources */,
+				159898AC1CFD9E54BBE41960 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardListPractice;
+			productName = CreditCardListPractice;
+			productReference = A5FFC3FA278D6A79006ECC71 /* CreditCardListPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FFC3F2278D6A79006ECC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A5FFC3F9278D6A79006ECC71 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A5FFC3F5278D6A79006ECC71 /* Build configuration list for PBXProject "CreditCardListPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5FFC3F1278D6A79006ECC71;
+			productRefGroup = A5FFC3FB278D6A79006ECC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FFC3F9278D6A79006ECC71 /* CreditCardListPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FFC3F8278D6A79006ECC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FFC40A278D6A7A006ECC71 /* LaunchScreen.storyboard in Resources */,
+				A5FFC407278D6A7A006ECC71 /* Assets.xcassets in Resources */,
+				A5FFC41C278DAD92006ECC71 /* money.json in Resources */,
+				A5FFC405278D6A79006ECC71 /* Main.storyboard in Resources */,
+				A5FFC41E278DB8DC006ECC71 /* GoogleService-Info.plist in Resources */,
+				A5FFC418278D7038006ECC71 /* CardListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159898AC1CFD9E54BBE41960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditCardListPractice/Pods-CreditCardListPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditCardListPractice/Pods-CreditCardListPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreditCardListPractice/Pods-CreditCardListPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD2DBD7FF2554618850238D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreditCardListPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FFC3F6278D6A79006ECC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FFC414278D6EF2006ECC71 /* CreditCard.swift in Sources */,
+				A5FFC41A278DA916006ECC71 /* CardDetailViewController.swift in Sources */,
+				A5FFC417278D7038006ECC71 /* CardListCell.swift in Sources */,
+				A5FFC412278D6AA1006ECC71 /* CardListViewController.swift in Sources */,
+				A5FFC3FE278D6A79006ECC71 /* AppDelegate.swift in Sources */,
+				A5FFC400278D6A79006ECC71 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5FFC403278D6A79006ECC71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FFC404278D6A79006ECC71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5FFC408278D6A7A006ECC71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FFC409278D6A7A006ECC71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5FFC40C278D6A7A006ECC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5FFC40D278D6A7A006ECC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FFC40F278D6A7A006ECC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F5EB7EF9927B06B2E85058 /* Pods-CreditCardListPractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardListPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.CreditCardListPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5FFC410278D6A7A006ECC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF6166D568E80BCCFE084F3 /* Pods-CreditCardListPractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardListPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.CreditCardListPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FFC3F5278D6A79006ECC71 /* Build configuration list for PBXProject "CreditCardListPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FFC40C278D6A7A006ECC71 /* Debug */,
+				A5FFC40D278D6A7A006ECC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FFC40E278D6A7A006ECC71 /* Build configuration list for PBXNativeTarget "CreditCardListPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FFC40F278D6A7A006ECC71 /* Debug */,
+				A5FFC410278D6A7A006ECC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5FFC3F2278D6A79006ECC71 /* Project object */;
+}
