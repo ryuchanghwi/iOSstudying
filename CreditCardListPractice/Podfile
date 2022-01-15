@@ -8,4 +8,5 @@ target 'CreditCardListPractice' do
   # Pods for CreditCardListPractice
 pod 'Kingfisher'
 pod 'lottie-ios'
+pod 'Firebase/Database'
 end

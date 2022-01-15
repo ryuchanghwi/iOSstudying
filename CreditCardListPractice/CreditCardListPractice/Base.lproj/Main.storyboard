@@ -38,7 +38,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6l3-Ls-0FA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="50"/>
+            <point key="canvasLocation" x="111.59420289855073" y="49.553571428571423"/>
         </scene>
         <!--카드 혜택 상세-->
         <scene sceneID="KwN-b9-FZK">
