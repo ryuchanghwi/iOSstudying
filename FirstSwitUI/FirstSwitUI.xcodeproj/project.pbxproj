@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A51856C2281AAF5900489CD2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51856C1281AAF5900489CD2 /* ImageView.swift */; };
+		A5C921BB281BF24A0012BA3E /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C921BA281BF24A0012BA3E /* SpacerView.swift */; };
+		A5C921BD281BFC420012BA3E /* StackPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C921BC281BFC420012BA3E /* StackPractice.swift */; };
+		A5C921BF281C06940012BA3E /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C921BE281C06940012BA3E /* OverlayView.swift */; };
 		A5E4590D281A854F00B5444D /* FirstSwitUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4590C281A854F00B5444D /* FirstSwitUIApp.swift */; };
 		A5E4590F281A854F00B5444D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4590E281A854F00B5444D /* ContentView.swift */; };
 		A5E45911281A855100B5444D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E45910281A855100B5444D /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		A51856C1281AAF5900489CD2 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		A5C921BA281BF24A0012BA3E /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		A5C921BC281BFC420012BA3E /* StackPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPractice.swift; sourceTree = "<group>"; };
+		A5C921BE281C06940012BA3E /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		A5E45909281A854F00B5444D /* FirstSwitUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwitUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E4590C281A854F00B5444D /* FirstSwitUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwitUIApp.swift; sourceTree = "<group>"; };
 		A5E4590E281A854F00B5444D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 				A51856C1281AAF5900489CD2 /* ImageView.swift */,
 				A5E45910281A855100B5444D /* Assets.xcassets */,
 				A5E45912281A855100B5444D /* Preview Content */,
+				A5C921BA281BF24A0012BA3E /* SpacerView.swift */,
+				A5C921BC281BFC420012BA3E /* StackPractice.swift */,
+				A5C921BE281C06940012BA3E /* OverlayView.swift */,
 			);
 			path = FirstSwitUI;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C921BB281BF24A0012BA3E /* SpacerView.swift in Sources */,
 				A51856C2281AAF5900489CD2 /* ImageView.swift in Sources */,
+				A5C921BD281BFC420012BA3E /* StackPractice.swift in Sources */,
+				A5C921BF281C06940012BA3E /* OverlayView.swift in Sources */,
 				A5E4590F281A854F00B5444D /* ContentView.swift in Sources */,
 				A5E4590D281A854F00B5444D /* FirstSwitUIApp.swift in Sources */,
 			);
