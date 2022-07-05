@@ -4,7 +4,7 @@
 
 가장 기본적인 사용방법은 다음과 같다. 
 
-``` swfit 
+``` swift 
 enum Color: String {
     case caseRed = "red"
     case caseBlue = "blue"
