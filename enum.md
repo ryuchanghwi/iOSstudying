@@ -82,3 +82,31 @@ print(selectedPhoneBrand.getBrand())
 //결과: 애플
 
 ```
+
+
+## 사용해보기 
+``` swift 
+    enum hexColor {
+        case stringColor
+        case separateColor
+        case backgroundColor
+        
+        func getHexColor() -> UIColor {
+            switch self {
+            case .stringColor:
+                return UIColor(hex: 0x5F5D59)
+            case .separateColor:
+                return UIColor(hex: 0xE2DFD7)
+            case .backgroundColor:
+                return UIColor(hex: 0xFDFCF9)
+            }
+        }
+    }
+```
+
+``` swift 
+    func buttonBackground() {
+        exitButton.backgroundColor = hexColor.backgroundColor.getHexColor()
+        cancelButton.backgroundColor = hexColor.backgroundColor.getHexColor()
+    }
+```
