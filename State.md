@@ -37,3 +37,18 @@ struct StatePractice: View {
 ```
 
 <img src ="https://user-images.githubusercontent.com/78063938/178932248-57d977e8-6dab-4b46-bbe0-3189a7f32338.png" width = "200">
+
+#### 여기서 만약에 @State 를 뺀다면 어떻게 될까?
+Cannot use mutating member on immutable value: 'self' is immutable
+다음과 같은 에러가 나타난다.(변하지 않는 값을 바꿀 수 없다고 나타난다.)
+
+
+#### 그렇다면 private 를 제거하면 어떻게 될까?
+에러는 발생하지 않는다. 그렇다면 왜 쓸까?
+
+Don’t initialize a state property of a view at the point in the view hierarchy where you instantiate the view, because this can conflict with the storage management that SwiftUI provides. To avoid this, always declare state as private, and place it in the highest view in the view hierarchy that needs access to the value. Then share the state with any child views that also need access, either directly for read-only access, or as a binding for read-write access.
+
+공식문서에 다음과 같이 나와있다. 
+
+- "SwiftUI에서 제공하는 storage management가 충돌할 수 있다"
+때문에 반드시 State는 Private와 함께 써줘야한다고 나와있다. 
