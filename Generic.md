@@ -32,14 +32,12 @@ func swapStrings(_ a: inout String, _ b: inout String) {
 
 var stringA = "stringA"
 var stringB = "stringB"
-
+swapStrings(&stringA, &stringB)
+```
 - 그렇다면 int와 string을 swap할수도 있을까?
 ####  error: generic.xcplaygroundpage:64:21: error: cannot convert value of type 'Int' to expected argument type 'String'
  swapFunction(&strA, &integerB)
- 다음과 같은 에러가 나타나는데 strA가 함수를 탈 때  T는 string으로 정해져 있기 때문에 int값이 들어온다면 에러가 나타나는 것이다. 
-swapStrings(&stringA, &stringB)
-
-```
+ #### 다음과 같은 에러가 나타나는데 strA가 함수를 탈 때  T는 string으로 정해져 있기 때문에 int값이 들어온다면 에러가 나타나는 것이다. 
 - double swap
 ``` swift 
 func swapDouble(_ a: inout Double, _ b: inout Double) {
