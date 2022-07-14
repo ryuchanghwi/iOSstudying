@@ -72,5 +72,3 @@ struct StackPractice: View {
 ```
 
 <img src = "https://user-images.githubusercontent.com/78063938/175806593-7aba7b17-5ed2-464d-8d7f-6508aa91f207.png" width = "200">
-
-d
