@@ -10,7 +10,7 @@
 - [Stack](https://github.com/ryuchanghwi/TIL/blob/main/Stack.md)
 - [State](https://github.com/ryuchanghwi/TIL/blob/main/State.md)
 - [SwiftUI Image](https://github.com/ryuchanghwi/TIL/blob/main/SwiftUI%20Image.md)
-- [ScrollView](https://github.com/ryuchanghwi/TIL/blob/main/SwiftUI%20Image.md)
+- [ScrollView](https://github.com/ryuchanghwi/TIL/blob/main/SwiftUI%20ScrollView.md)
 - [NavigationView](https://github.com/ryuchanghwi/TIL/blob/main/SwiftUI%20Image.md)
 
 
