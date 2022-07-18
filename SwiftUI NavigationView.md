@@ -1,3 +1,4 @@
+https://www.hackingwithswift.com/articles/216/complete-guide-to-navigationview-in-swiftui
 ## NavigationView
 
 #### NavigationView는 swiftUI에서 정말 중요한 컴포넌트 중에 하나라고 할 수 있다. 
@@ -108,6 +109,54 @@ struct NavigationVIewPractice: View {
 struct NavigationVIewPractice_Previews: PreviewProvider {
     static var previews: some View {
         NavigationVIewPractice()
+    }
+}
+```
+
+## Programmatic navigation
+### NavigationLink에는 isActive 매개 변수가 존재함
+- 이를 통해 네비게이션 링크가 현재 활성 상태인지 알 수 있다. 
+- 이를 통해 네비게이션 링크의 활성화를 프로그래밍적으로 트리거할 수 있다. 
+
+``` swift 
+struct NavigationVIewPractice: View {
+    @State private var isShowingDetailView = false
+    var body: some View {
+        NavigationView {
+            VStack(spacing: 30) {
+                NavigationLink(destination: Text("두번째 화면"), isActive: $isShowingDetailView) { }
+                Button("두번쨰 뷰 이동") {
+                    self.isShowingDetailView = true
+                    
+                }
+            }
+            .navigationTitle("Navigation")
+        }
+    }
+}
+```
+### tag 이용
+- isActive는 Bool 값이기 때문에 전환해야하는 뷰들이 많다면 비효율 적일 수 있다.
+- 따라서 tag 값을 단일 속성으로 이용해 트리거 시킬 수 있다. 
+
+``` swift 
+struct NavigationVIewPractice: View {
+    @State private var selection: String? = nil
+    var body: some View {
+        NavigationView {
+            VStack(spacing: 30) {                
+                NavigationLink(destination: Text("세번째 화면"), tag: "Third", selection: $selection) { }
+                NavigationLink(destination: Text("네번째 화면"), tag: "Fourth", selection: $selection) { }
+                
+                Button("세번째 뷰 이동") {
+                    self.selection = "Third"
+                }
+                Button("네번째 뷰 이동") {
+                    self.selection = "Fourth"
+                }
+            }
+            .navigationTitle("Navigation")
+        }
     }
 }
 ```
