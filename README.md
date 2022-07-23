@@ -30,6 +30,7 @@
 - [클로저](https://github.com/ryuchanghwi/TIL/blob/main/Closure.md)
 - [메소드 매개변수 input](https://github.com/ryuchanghwi/TIL/blob/main/%EB%A9%94%EC%86%8C%EB%93%9Cinout.md)
 - [Generic제네릭](https://github.com/ryuchanghwi/TIL/blob/main/Generic.md)
+- [escaping](https://github.com/ryuchanghwi/TIL/blob/main/Generic.md)
 
 
 
