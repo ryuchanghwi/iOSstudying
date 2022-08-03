@@ -36,7 +36,7 @@
 - [상속](https://github.com/ryuchanghwi/TIL/blob/main/%EC%83%81%EC%86%8D.md)
 - [@escaping 클로저(작성중)]()
 - [didSet, willSet(작성중)]()
-- [CaseIterable(작성중]()
+- [CaseIterable(작성중)]()
 
 ## Combine
 * * *
