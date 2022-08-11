@@ -38,6 +38,7 @@
 - [@escaping 클로저](https://declan.tistory.com/37)
 - [didSet, willSet(작성중)]()
 - [CaseIterable(작성중)]()
+- [일급객체](https://declan.tistory.com/45)
 
 ## Combine
 * * *
