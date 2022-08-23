@@ -69,5 +69,5 @@
 - [TimeBased Operator(작성중)]()
 - [subject .asObservable](https://github.com/ryuchanghwi/TIL/blob/main/subject.asObservable.md)
 
-- [Binder(작성중)]()
+- [Binder(작성중.)]()
 
