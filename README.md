@@ -71,7 +71,6 @@
 - [TextField를 이용한 RX + MVVM 연습]
 - [orEmpty](https://github.com/ryuchanghwi/TIL/blob/main/orEmpty.md)
 
-- [Binder(작성중.)]()
 
 ### Charts
 
