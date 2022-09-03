@@ -59,7 +59,7 @@
 ## 라이브러리 사용기
 ### Snapkit
 - [UIkit에 PreView띄우기](https://declan.tistory.com/44)
-- [tableViewCell 작성]()
+- [tableViewCell 작성](https://github.com/ryuchanghwi/TIL/blob/main/snapkitTableViewCell)
 ### RxSwift + RxCocoa
 - [Observable의 생명주기](https://github.com/ryuchanghwi/TIL/blob/main/Observable%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0.md)
 - [HelloRx](https://declan.tistory.com/48)
