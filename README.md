@@ -73,7 +73,7 @@
 - [Rxcocoa Relay Driver](https://declan.tistory.com/55)
 
 ### Then
--[Then 알아보기](https://declan.tistory.com/57)
+- [Then 알아보기](https://declan.tistory.com/57)
 
 ### Charts
 
