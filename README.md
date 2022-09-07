@@ -41,7 +41,7 @@
 - [일급객체](https://declan.tistory.com/45)
 - [고차함수](https://declan.tistory.com/46)
 - [lazy키워드](https://declan.tistory.com/53)
-- [error]()
+- [error](https://github.com/ryuchanghwi/TIL/blob/main/error.md)
 
 ## Combine
 * * *
