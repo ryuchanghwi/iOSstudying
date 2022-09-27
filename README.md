@@ -23,7 +23,7 @@
 
 ## Swift 기본 문법
 * * * 
-- [연산 프로퍼티]()
+- [연산 프로퍼티](https://declan.tistory.com/62)
 - [if let과 guard let의 의미와 목적](https://declan.tistory.com/61)
 - [if...else, 삼항연산자](https://github.com/ryuchanghwi/TIL/blob/main/%EC%A1%B0%EA%B1%B4%EB%AC%B8.md)
 - [for 반복문](https://github.com/ryuchanghwi/TIL/blob/main/for%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
