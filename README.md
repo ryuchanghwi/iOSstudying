@@ -4,7 +4,6 @@
 ## CS 관련 공부
 * * * 
 - [GCD(작성중)]()
-
 ## SwiftUI
 * * * 
 - [@AppStorage](https://declan.tistory.com/31)
