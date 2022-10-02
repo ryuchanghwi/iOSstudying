@@ -35,6 +35,7 @@
 - [Generic제네릭](https://github.com/ryuchanghwi/TIL/blob/main/Generic.md)
 - [객체 생성자, 해제 메소드](https://github.com/ryuchanghwi/TIL/blob/main/%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%EC%9E%90,%20%ED%95%B4%EC%A0%9C%20%EB%A9%94%EC%86%8C%EB%93%9C.md)
 - [상속](https://github.com/ryuchanghwi/TIL/blob/main/%EC%83%81%EC%86%8D.md)
+- [상속 1/2)(https://declan.tistory.com/63)
 - [@escaping 클로저](https://declan.tistory.com/37)
 - [didSet, willSet(작성중)]()
 - [CaseIterable(작성중)]()
@@ -87,4 +88,3 @@
 
 ### 멋사 앱스쿨
 
-- [If let]()
