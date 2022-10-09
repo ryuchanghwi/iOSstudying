@@ -5,9 +5,28 @@
 Image("이미지이름")
 ```
 
+### !!주의사항!!
+이미지를 frame 수식어를 적용한다 해도 다음 그림에서 볼 수 있는 것처럼 이미지의 크기를 변하지 않고 뷰가 차지하는 공간만 달라진다. 
+<img src ="https://user-images.githubusercontent.com/78063938/194764859-c91b0ada-9278-4b19-a67c-f0bba0a497e5.png" width = "300">
+따라서 이미지의 크기를 변경해야 하는 경우에는 .resizable 수식어를 사용한다. 
+<img src ="https://user-images.githubusercontent.com/78063938/194765100-d597d397-5ef2-489b-b03d-28eb91c75739.png" width = "300">
+``` swift
+        HStack {
+            Image("SwiftUI")
+            Image("SwiftUI")
+                .resizable()
+                .frame(width: 50, height: 50)
+            Image("SwiftUI")
+                .resizable()
+                .frame(width:300, height: 300)
+        }
+```
+
+
 #### .resizable()
 - Sets the mode by which SwiftUI resizes an image to fit its space.
 - 공간에 맞게 이미지 크기를 조절하는 역할
+- .resizable(resizingMode: .stretch)이 기본값
 
 
 #### .aspectRatio()
