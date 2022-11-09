@@ -1,3 +1,6 @@
+$ git branch [브랜치명] // 브랜치 생성
+$ git branch -d [브랜치명] // 브랜치 삭제
+$ git branch -m [기존 브랜치명] [바뀔 브랜치명] // 브랜치 이름 변경
 ### git branch 
 - 현재 깃의 브런치 확인
 ### git add . 
