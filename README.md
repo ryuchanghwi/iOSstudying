@@ -4,7 +4,6 @@
 ## CS 관련 공부
 
 * * * 
-- [GCD(작성중)]()
 ## SwiftUI
 * * * 
 - [LazyGrid](https://declan.tistory.com/67)
@@ -26,7 +25,6 @@
 
 ## Swift 기본 문법
 * * * 
-- [Property Wrapper]()
 - [연산 프로퍼티](https://declan.tistory.com/62)
 - [if let과 guard let의 의미와 목적](https://declan.tistory.com/61)
 - [if...else, 삼항연산자](https://github.com/ryuchanghwi/TIL/blob/main/%EC%A1%B0%EA%B1%B4%EB%AC%B8.md)
@@ -41,8 +39,6 @@
 - [객체 생성자, 해제 메소드](https://github.com/ryuchanghwi/TIL/blob/main/%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%EC%9E%90,%20%ED%95%B4%EC%A0%9C%20%EB%A9%94%EC%86%8C%EB%93%9C.md)
 - [상속](https://github.com/ryuchanghwi/TIL/blob/main/%EC%83%81%EC%86%8D.md)
 - [상속 1/2)(https://declan.tistory.com/63)
-- [didSet, willSet(작성중)]()
-- [CaseIterable(작성중)]()
 - [일급객체](https://declan.tistory.com/45)
 - [고차함수](https://declan.tistory.com/46)
 - [lazy키워드](https://declan.tistory.com/53)
@@ -55,7 +51,6 @@
 ## 디자인패턴
 * * *
 - [싱글톤 패턴](https://github.com/ryuchanghwi/TIL/blob/main/%EC%8B%B1%EA%B8%80%ED%86%A4%ED%8C%A8%ED%84%B4.md)
-- [MVVM 패턴(작성중)]()
 
 ## Git
 - [용어 정리](https://github.com/ryuchanghwi/TIL/blob/main/GitPractice.md)
