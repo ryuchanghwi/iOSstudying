@@ -84,5 +84,3 @@
 - [Realm 알아보기](https://declan.tistory.com/59)
 
 
-### 멋사 앱스쿨
-
