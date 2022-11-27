@@ -6,6 +6,7 @@
 * * * 
 ## SwiftUI
 * * * 
+- [GridItem)(https://declan.tistory.com/68)
 - [LazyGrid](https://declan.tistory.com/67)
 - [Grid, GridRow](https://declan.tistory.com/66)
 - [@AppStorage](https://declan.tistory.com/31)
